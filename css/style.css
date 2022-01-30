@@ -223,6 +223,7 @@ a:hover {
 
 .five{
 	z-index: 3;
+	border-radius: 10%;
 	color: white;
 	position: absolute;
 	background-color: #5598F2;
@@ -234,8 +235,8 @@ a:hover {
 	height: 100%;
 }
 	.five:hover{
-		color: black;
-		background-color: white;
+		color: white;
+		background-color: #49EAF2;
 	}
 	.five .inner{
 		position: relative;
@@ -244,6 +245,7 @@ a:hover {
 	}
 .six{
 	z-index: 3;
+	border-radius: 25%;
 	color: white;
 	position: absolute;
 	background-color: #F27061;
@@ -256,8 +258,8 @@ a:hover {
 	height: 100%;
 }
 	.six:hover{
-		color: black;
-		background-color: white;
+		color: white;
+		background-color: #49EAF2;
 	}
 	.six .inner{
 		position: relative;
@@ -266,6 +268,7 @@ a:hover {
 	}
 .seven{
 	z-index: 3;
+	border-radius: 40%;
 	color: white;
 	position: absolute;
 	background-color: #F2B030;
@@ -278,8 +281,8 @@ a:hover {
 	height: 100%;
 }
 	.seven:hover{
-		color: black;
-		background-color: white;
+		color: white;
+		background-color: #49EAF2;
 	}
 	.seven .inner{
 		position: relative;
@@ -287,6 +290,7 @@ a:hover {
 		transform: translate(0, -50%);
 	}
 .eight{
+	border-radius: 50%;
 	z-index: 3;
 	color: white;
 	position: absolute;
@@ -298,11 +302,24 @@ a:hover {
 	height: 100%;
 }
 	.eight:hover{
-		color: black;
-		background-color: white;
+		color: white;
+		background-color: #49EAF2;
 	}
 	.eight .inner{
 		position: relative;
 		top: 50%;
 		transform: translate(0, -50%);
 	}
+	.nine{
+		z-index: 3;
+		background-image: url('https://images.christiantoday.co.kr/data/images/full/341772/4.jpg?w=654');
+		background-size: cover;
+		background-position: center;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 290%;
+	}
+		.nine .inner{
+
+		}
