@@ -1,0 +1,302 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: inherit;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: white;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: monospace;
+}
+
+
+a:link{
+	text-decoration: line-through;
+	color: #FF7D5E;
+}
+a:visited {
+	text-decoration: line-through;
+	color: #FF7D5E;
+}
+a:hover {
+	font-size: 100px;
+	color: yellow;
+}
+
+
+.hello{
+	z-index: 2;
+	position: fixed;
+	left: 5%;
+	top: 5%;
+	background-image: url(https://i1.sndcdn.com/artworks-RJG4jIrv6lZwWkQH-cWi6nA-t500x500.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #FFB92B;
+	font-weight: 500;
+	width: 15vW;
+	height: 15vh;
+	text-align: center;
+}
+	.hello:hover{
+		width: 20vW;
+		height: 20vh;
+
+	}
+	.hello .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+.one{
+	background-image: url('https://i.kym-cdn.com/entries/icons/original/000/026/638/cat.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 90vh;
+	position: static;
+}
+	.one:hover{
+		background-image: url('https://qph.fs.quoracdn.net/main-qimg-c41fd61231042f8d048cb3f860eaef43-lq');
+		background-size: cover;
+		background-position: center;
+		width: 100vw;
+		height: 90vh;
+		position: static;
+}
+.two{
+	font-size: 30px;
+	font-weight: 800;
+	color: #0A16FB;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #00F906;
+	padding: 3%;
+}
+	.two:hover{
+		color: #00F906;
+		background-color: #0A16FB;
+		padding: 4%;
+}
+.three{
+	font-size: 30pt;
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+}
+	.three:hover{
+		color: black;
+		background-color: white;
+	}
+	.three .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+.four{
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+	.four:hover{
+		color: black;
+		background-color: white;
+	}
+	.four .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+
+.five{
+	z-index: 3;
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	top: 190%;
+	width: 25%;
+	height: 100%;
+}
+	.five:hover{
+		color: black;
+		background-color: white;
+	}
+	.five .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+.six{
+	z-index: 3;
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	left: 25%;
+	top: 190%;
+	width: 25%;
+	height: 100%;
+}
+	.six:hover{
+		color: black;
+		background-color: white;
+	}
+	.six .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+.seven{
+	z-index: 3;
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	left: 50%;
+	top: 190%;
+	width: 25%;
+	height: 100%;
+}
+	.seven:hover{
+		color: black;
+		background-color: white;
+	}
+	.seven .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+.eight{
+	z-index: 3;
+	color: white;
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	left: 75%;
+	top: 190%;
+	width: 25%;
+	height: 100%;
+}
+	.eight:hover{
+		color: black;
+		background-color: white;
+	}
+	.eight .inner{
+		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
