@@ -225,7 +225,9 @@ a:hover {
 	z-index: 3;
 	color: white;
 	position: absolute;
-	background-color: black;
+	background-color: #5598F2;
+	font-size: 50pt;
+	font-weight: 800;
 	text-align: center;
 	top: 190%;
 	width: 25%;
@@ -244,7 +246,9 @@ a:hover {
 	z-index: 3;
 	color: white;
 	position: absolute;
-	background-color: black;
+	background-color: #F27061;
+	font-size: 30pt;
+	font-weight: 800;
 	text-align: center;
 	left: 25%;
 	top: 190%;
@@ -264,7 +268,9 @@ a:hover {
 	z-index: 3;
 	color: white;
 	position: absolute;
-	background-color: black;
+	background-color: #F2B030;
+	font-size: 60pt;
+	font-weight: 800;
 	text-align: center;
 	left: 50%;
 	top: 190%;
@@ -284,7 +290,7 @@ a:hover {
 	z-index: 3;
 	color: white;
 	position: absolute;
-	background-color: black;
+	background-color: #3DF295;
 	text-align: center;
 	left: 75%;
 	top: 190%;
